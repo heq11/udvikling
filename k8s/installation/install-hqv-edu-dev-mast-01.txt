@@ -1,0 +1,503 @@
+root@hqv-edu-dev-mast-01:~# history 
+    1  apt update
+    2  apt install curl
+    3  curl -v momentis.dk
+    4  ip a
+    5  curl -v momentis.dk
+    6  ip a
+    7  curl -v momentis.dk
+    8  apt update
+    9  apt install route
+   10  route -n
+   11  routel -n
+   12  curl -v momentis.dk
+   13  apt install openssh-server
+   14  curl -v momentis.dk
+   15  vi /etc/ssh/ssh_config
+   16  service sshd restart
+   17  servicectl restart sshd
+   18  service restart sshd
+   19  systemctl status sshd
+   20  systemctl status ssh
+   21  systemctl restart ssh
+   22  curl -v momentis.dk
+   23  ifw
+   24  sshd -t
+   25  systemctl restart sshd
+   26  apt install sshd
+   27  ss
+   28  ss -tulpn
+   29  histq
+   30  history 
+   31  vi /etc/ssh/sshd_config
+   32  systemctl restart sshd
+   33  systemctl status ssh
+   34  systemctl restart ssh
+   35  ss -tulpn
+   36  systemctl daemon-reload
+   37  systemctl restart ssh
+   38  systemctl status ssh
+   39  ufw allow 1333
+   40  exit
+   41  ip a
+   42  systemctl status ssh
+   43  ufw
+   44  ufw status
+   45  curl -v momentis.dk
+   46  netstat
+   47  ss -tulpn
+   48  ufw allow 1333
+   49  ufw status
+   50  exit
+   51  history 
+   52  curl -v momentis.dk
+   53  history 
+   54  ip -a
+   55  ip aa
+   56  ip a
+   57  curl -v momentis.dk
+   58  exit
+   59  curl -v momentis.dk
+   60  systemctl status ssh
+   61  systemctl status openssh
+   62  systemctl status openssh-server
+   63  systemctl status open-ssh-server
+   64  systemctl status ssh
+   65  systemctl restart ssh
+   66  systemctl status ssh
+   67  curl -v momentis.dk
+   68  ufw status
+   69  ufw --help
+   70  ip address
+   71  apt update
+   72  apt install open-ssh-server
+   73  apt install openssh-server
+   74  history 
+   75  systemctl status openssh-server
+   76  systemctl status ssh
+   77  history 
+   78  vi /etc/ssh/sshd_config
+   79  systemctl restart ssh
+   80  systemctl status ssh
+   81  systemctl restart ssh
+   82  systemctl status ssh
+   83  history 
+   84  vi /etc/ssh/ssh_config
+   85  systemctl daemon-reload
+   86  history systemctl restart ssh
+   87  history systemctl restart sshd
+   88  systemctl restart ssh
+   89  systemctl status ssh
+   90  shudown -r
+   91  shudown --help
+   92  shutdown -r
+   93  shutdown --help
+   94  shutdown -h
+   95  date
+   96  ip address
+   97  curl - v momentis.dk
+   98  curl -v momentis.dk
+   99  ping 192.168.1.183
+  100  hostname
+  101  hostnamectl set-hostname hqv-edu-dev-03
+  102  exit
+  103  curl -v momentis.dk
+  104  exit
+  105  history 
+  106  shutdown -h
+  107  curl -v momentis.dk
+  108  hostnamectl set-hostname hqv-edu-dev-mast-01
+  109  exit
+  110  ip address
+  111  vi /etc/hosts
+  112  apt install bzip2
+  113  curl -v momentis.dk
+  114  vi /etc/hosts
+  115  exit
+  116  vi /etc/hosts
+  117  cat /etc/hosts
+  118  curl -v dr.dk
+  119  ping dr.dk
+  120  curl -v momentis.dk
+  121  sudo swapoff -a
+  122  sudo vi /etc/fstab
+  123  df -h
+  124  apt update
+  125  apt-get install docker.io -y
+  126  apt-get install apt-transport-https -y
+  127  apt-get install ca-certificates gpg -y
+  128  ls -alrt /etc/apt/keyrings
+  129  apt-get install ca-certificates gpg -y
+  130  ls -alrt /etc/apt/keyrings
+  131  ls -alrt /etc/apt/
+  132  sudo curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.33/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
+  133  ls -alrt /etc/apt/keyrings/
+  134  echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.33/deb/ /' | sudo tee /etc/apt/sources.list.d/kubernetes.list
+  135  ls -alrt /etc/apt/sources.list.d/kubernetes.list
+  136  cat /etc/apt/sources.list.d/kubernetes.list
+  137  sudo apt-get update
+  138  apt-cache madison kubelet
+  139  apt-cache madison kubectl
+  140  apt-cache madison kubeadm
+  141  KUBE_VERSION="1.33.2-1.1"
+  142  sudo apt-get install -y kubelet=$KUBE_VERSION kubeadm=$KUBE_VERSION kubectl=$KUBE_VERSION
+  143  sudo apt-mark hold kubelet kubeadm kubectl
+  144  exit
+  145  echo "br_netfilter" | sudo tee /etc/modules-load.d/br_netfilter.conf
+  146  cat /etc/modules-load.d/br_netfilter.conf
+  147  kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0/manifests/calico.yaml
+  148  ip a
+  149  curl -v momentis.dk
+  150  kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0/manifests/calico.yaml
+  151  sudo rm -rf /etc/kubernetes /var/lib/etcd
+  152  history | grep ini
+  153  history | grep init
+  154  kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0/manifests/calico.yaml
+  155  kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0/manifests/calico.yaml --validate=false
+  156  exit
+  157  history 
+  158  ping dr.dk
+  159  curl -v momentis.dk
+  160  sudo sysctl -w net.ipv4.ip_forward=1
+  161  vi /etc/sysctl.conf 
+  162  sudo sed -i '/^#net\.ipv4\.ip_forward=1/s/^#//' /etc/sysctl.conf
+  163  vi /etc/sysctl.conf 
+  164  sudo sysctl -p
+  165  sudo sysctl -w net.ipv4.ip_forward=1
+  166  sudo kubeadm init --pod-network-cidr=192.168.0.0/16 --cri-socket=unix:///run/containerd/containerd.sock
+  167  mkdir -p $HOME/.kube
+  168  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  169  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+  170  export KUBECONFIG=/etc/kubernetes/admin.conf
+  171  kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+  172  kubectl get nodes
+  173  export KUBECONFIG=/etc/kubernetes/admin.conf
+  174  sudo kubeadm init --pod-network-cidr=192.168.0.0/16
+  175  mkdir -p $HOME/.kube
+  176  env
+  177  kubectl get nodes
+  178  docker ps
+  179  docker images
+  180  unset http_proxy
+  181  unset https_proxy
+  182  kubectl get nodes
+  183  ufw status
+  184  netstat
+  185  ss
+  186  ss -tulpn
+  187  kubectl get nodes
+  188  curl https://192.168.1.83:6443
+  189  ls -alrt
+  190  ls -alrt .kube/config 
+  191  cat .kube/config 
+  192  swapoff -a
+  193  systemctl stop kubelet
+  194  systemctl start kubelet
+  195  kubectl get nodes
+  196  systemctl status docker
+  197  systemctl restart docker
+  198  kubectl get nodes
+  199  kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0/manifests/calico.yaml
+  200  kubectl get nodes
+  201  systemctl restart docker
+  202  kubectl get nodes
+  203  unset http_proxy
+  204  unset https_proxy
+  205  kubectl get nodes
+  206  systemctl stop kubelet
+  207  systemctl start kubelet
+  208  kubectl get nodes
+  209  systemctl restart docker
+  210  kubectl get nodes
+  211  vi /etc/hosts
+  212  cat /etc/hosts
+  213  hostname
+  214  vi /etc/hosts
+  215  history 
+  216  export KUBECONFIG=/etc/kubernetes/admin.conf
+  217  kubectl get nodes
+  218  kubectl describe node
+  219  df -h
+  220  kubectl get nodes
+  221  kubectl describe node
+  222  export KUBECONFIG=/etc/kubernetes/admin.conf
+  223  systemctl restart kubelet
+  224  systemctl restart kubectl
+  225  kubectl describe node
+  226  ls -alrt .kube/config 
+  227  ls -alrt .kube/
+  228  env
+  229  cat /etc/kubernetes/admin.conf
+  230  cp /etc/kubernetes/admin.conf .kube/config 
+  231  systemctl restart kubelet
+  232  kubectl get nodes
+  233  kubectl describe node
+  234  ls -alrt
+  235  env
+  236  vi /etc/kubernetes/admin.conf
+  237  kubectl describe node
+  238  swapoff -a
+  239  strace -eopenat kubectl versionit
+  240  kubectl get nodes
+  241  kubectl cluster-info
+  242  docker container ls
+  243  df -h
+  244  ps -wef 
+  245  kubectl cluster-info
+  246  kubectl cluster-info dump
+  247  nslookup 192.168.1.83
+  248  nslookup hqv-edu-dev-mast-01
+  249  ls -alrt
+  250  chmod 777 .kube/config 
+  251  ls -alrt .kube/cache/
+  252  rm -rf .kube/cache
+  253  systemctl restart kubelet
+  254  systemctl restart docker
+  255  kubectl cluster-info
+  256  kubectl cluster-info dump
+  257  vi /etc/fstab 
+  258  free -m
+  259  reboot
+  260  history 
+  261  vi /etc/fstab 
+  ---------------------------------
+  HERTIL - og fremefter
+  ---------------------------------
+  262  free -m
+  263  swapoff -a
+  264  free -m
+  265  apt update
+  266  apt-cache madison kubelet
+  267  apt-cache madison kubectl
+  268  apt-cache madison kubeadm
+  269  KUBE_VERSION="1.33.2-1.1"
+  270  sudo apt-get install -y kubelet=$KUBE_VERSION kubeadm=$KUBE_VERSION kubectl=$KUBE_VERSION --allow-downgrades
+  271  apt autoremove
+  272  kubelet --version
+  273  kubectl --version
+  274  kubectl 
+  275  kubectl version
+  276  kubeadm --version
+  277  kubeadm version
+  278  sysctl -p
+  279  sudo kubeadm init --pod-network-cidr=192.168.0.0/16 --cri-socket=unix:///run/containerd/containerd.sock --control-plane-endpoint=cluster-endpoint
+  280  kubectl get nodes
+  281  mkdir -p $HOME/.kube
+  282  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  283  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+  284  cat .kube/config 
+  285  kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0/manifests/calico.yaml
+  286  kubectl get nodes
+  287  kubectl get nodes -o wide
+  288  kubeadm token create --print-join-command
+  289  kubectl get nodes
+  290  kubectl top nodes hqv-edu-dev-02
+  291  kubectl top node hqv-edu-dev-02
+  292  kubectl describe node hqv-edu-dev-02
+  293  clear; kubectl describe node hqv-edu-dev-02
+  294  cat /etc/hosts
+  295  vi /etc/hosts
+  296  cat /etc/hosts
+  297  kubectl get nodes
+  298  clear; kubectl describe node hqv-edu-dev-03
+  299  kubectl get nodes
+  300  ssh-keygen
+  301  ssh-copy-id root@hqv-edu-dev-02
+  302  ssh root@hqv-edu-dev-02
+  303  ssh root@hqv-edu-dev-03
+  304  ls -alrt .ssh/
+  305  rm .ssh/known_hosts 
+  306  rm .ssh/id_ed25519
+  307  rm .ssh/id_ed25519.pub 
+  308  ssh-keygen -t rsa
+  309  vi /etc/systemctl restart sshd
+  310  vi /etc/ssh/sshd_config
+  311  systemctl restart ssh.service
+  312  ssh root@hqv-edu-dev-03
+  313  rm .ssh/known_hosts 
+  314  ssh root@hqv-edu-dev-03
+  315  vi /etc/ssh/sshd_config
+  316  systemctl daemon-reload
+  317  systemctl restart ssh.socket
+  318  ssh root@hqv-edu-dev-03
+  319  rm .ssh/known_hosts 
+  320  ssh root@hqv-edu-dev-03
+  321  ssh-keygen 
+  322  ssh-copy-id root@hqv-edu-dev-03
+  323  ssh-copy-id hqv@hqv-edu-dev-03
+  324  exit
+  325  kubectl get nodes
+  326  kubectl -n kube-system logs calico-node-jwblt -c install-cni --tail=200
+  327  passwd
+  328  exit
+  329  ip a
+  330  kubectl get nodes
+  331  kubectl get pods -A
+  332  kubectl get nodes -A
+  333  kubectl get nodes -o wide
+  334  kubectl get pods -A -o wide
+  335  kubectl -n kube-system get pods -l k8s-app=kube-dns -o wide
+  336  kubectl -n kube-system logs -l k8s-app=kube-dns --tail=80
+  337  kubectl -n default run dnsutils --image=registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3 --restart=Never -it --rm --command -- sh -c 'nslookup kubernetes.default && nslookup nginx.default.svc.cluster.local || true'
+  338  kubectl -n kube-system get pods -l k8s-app=kube-dns -o wide
+  339  kubectl get pods -A -o wide
+  340  kubectl get storageclass
+  341  cat <<'EOF' | kubectl apply -f -
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: test-pvc
+spec:
+  accessModes: [ "ReadWriteOnce" ]
+  resources: { requests: { storage: 1Gi } }
+EOF
+
+  342  kubectl get pvc test-pvc
+  343  kubectl get pv
+  344  kubectl get pvc test-pvc
+  345  kubectl get pv
+  346  kubectl get pvc test-pvc
+  347  helm repo add rancher-lpp https://rancher.github.io/local-path-provisioner
+  348  snap install helm
+  349  apt update;apt install helm
+  350  snap install helm --classic
+  351  helm --version
+  352  helm version
+  353  helm repo add rancher-lpp https://rancher.github.io/local-path-provisioner
+  354  helm repo add openebs https://openebs.github.io/dynamic-localpv-provisioner/
+  355  helm repo update
+  356  helm upgrade --install openebs openebs/openebs --namespace openebs --create-namespace   --set engines.replicated.mayastor.enabled=false
+  357  kubectl get pvc test-pvc
+  358  kubectl describe pvc test-pvc
+  359  kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisioner/master/deploy/local-path-storage.yaml
+  360  kubectl annotate storageclass local-path storageclass.kubernetes.io/is-default-class="true" --overwrite
+  361  kubectl get storageclass
+  362  # run on each node (or via Ansible)
+  363  sudo mkdir -p /opt/local-path-provisioner
+  364  sudo chmod 0777 /opt/local-path-provisioner
+  365  kubectl delete pvc test-pvc
+  366  cat <<'EOF' | kubectl apply -f -
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: test-pvc
+spec:
+  accessModes: [ "ReadWriteOnce" ]
+  resources: { requests: { storage: 1Gi } }
+  storageClassName: local-path   # you can omit this now that it's default
+EOF
+
+  367  kubectl get pvc test-pvc
+  368  kubectl get pv
+  369  cat <<'EOF' | kubectl apply -f -
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pvc-tester
+spec:
+  containers:
+  - name: app
+    image: busybox:1.36
+    command: ["sh","-c","echo hello > /data/hello && sleep 3600"]
+    volumeMounts:
+    - name: vol
+      mountPath: /data
+  volumes:
+  - name: vol
+    persistentVolumeClaim:
+      claimName: test-pvc
+EOF
+
+  370  kubectl exec -it pvc-tester -- cat /data/hello
+  371  kubectl get sc
+  372  kubectl get sc local-path -o yaml | egrep -i 'provisioner|volumeBindingMode|default'
+  373  kubectl -n kube-system get deploy,po | grep -i local-path
+  374  kubectl -n kube-system logs deploy/local-path-provisioner --tail=200
+  375  kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisioner/master/deploy/local-path-storage.yaml
+  376  # run on EACH node (02, 03, and master if it can host workloads)
+  377  sudo mkdir -p /opt/local-path-provisioner
+  378  sudo chmod 0777 /opt/local-path-provisioner
+  379  kubectl describe pvc test-pvc
+  380  kubectl describe pod pvc-tester
+  381  clear
+  382  kubectl delete pod pvc-tester --ignore-not-found
+  383  kubectl delete pvc test-pvc --ignore-not-found
+  384  cat <<'EOF' | kubectl apply -f -
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: test-pvc
+spec:
+  accessModes: [ "ReadWriteOnce" ]
+  resources: { requests: { storage: 1Gi } }
+  storageClassName: local-path   # explicit to be safe
+EOF
+
+  385  kubectl apply -f - <<'EOF'
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pvc-tester
+spec:
+  containers:
+  - name: app
+    image: busybox:1.36
+    command: ["sh","-c","echo hello > /data/hello && sleep 3600"]
+    volumeMounts:
+    - name: vol
+      mountPath: /data
+  volumes:
+  - name: vol
+    persistentVolumeClaim:
+      claimName: test-pvc
+EOF
+
+  386  # watch them bind/schedule
+  387  kubectl get pvc test-pvc -w
+  388  kubectl get pv -w
+  389  kubectl get pod pvc-tester -w
+  390  kubectl get pod pvc-tester 
+  391  kubectl get storageclass
+  392  # should show local-path (default)
+  393  helm repo add cnpg https://cloudnative-pg.github.io/charts
+  394  helm repo update
+  395  kubectl create ns database
+  396  kubectl apply -n database -f https://raw.githubusercontent.com/cloudnative-pg/cloudnative-pg/main/releases/cnpg-operator.yaml
+  397  helm install cnpg cnpg/cloudnative-pg -n database --create-namespace
+  398  cat <<EOF | kubectl apply -f -
+# Example of PostgreSQL cluster
+apiVersion: postgresql.cnpg.io/v1
+kind: Cluster
+metadata:
+  name: cluster-example
+  
+spec:
+  instances: 3
+  storage:
+    size: 1Gi
+EOF
+
+  399  kubectl get -A cluster
+  400  kubectl -n database get pods -l app.kubernetes.io/name=cloudnative-pg
+  401  kubectl -n database create secret generic demo-pg-superuser   --from-literal=username=postgres --from-literal=password='Str0ngS3cret!'
+  402  kubectl -n database create secret generic demo-pg-appuser   --from-literal=username=appuser  --from-literal=password='AppP4ssw0rd!'
+  403  vi demo-pg.yaml
+  404  kubectl apply -f demo-pg.yaml
+  405  kubectl -n database get pods -l cnpg.io/cluster=demo-pg -w
+  406  kubectl -n database get pods -l cnpg.io/cluster=demo-pg 
+  407  kubectl -n database run psql --rm -it --image=ghcr.io/cloudnative-pg/postgresql:16   --env PGPASSWORD='AppP4ssw0rd!' --command --   psql -h demo-pg-rw.database.svc -U appuser -d appdb -c "select version();"
+  408  kubectl -n database get pods -l cnpg.io/cluster=demo-pg 
+  409  kubectl -n database run psql --rm -it   --image=postgres:16   --env PGPASSWORD='AppP4ssw0rd!'   --command -- psql -h demo-pg-rw.database.svc -U appuser -d appdb   -c "select version();"
+  410  kubectl -n database run psqlbox --image=postgres:16 --restart=Never -- sleep 3600
+  411  kubectl -n database wait --for=condition=Ready pod/psqlbox --timeout=90s
+  412  kubectl -n database exec -it psqlbox -- bash -lc  'PGPASSWORD="AppP4ssw0rd!" psql -h demo-pg-rw.database.svc -U appuser -d appdb -c "select version();"'
+  413  kubectl -n database exec -it psqlbox -- bash -lc  'PGPASSWORD="AppP4ssw0rd!" psql -h demo-pg-rw.database.svc -U appuser -d appdb -c "\l+"'
+  414  kubectl -n database get pods 
+  415  kubectl get pods 
+  416  kubectl -n database get pods | grep psqlbox
+  417  kubectl -n database get pods 
+  418  kubectl -n database describe pod psqlbox
+  419  kubectl -n database get pods 
+  420  kubectl -n database exec -it psqlbox -- bash -lc  'PGPASSWORD="AppP4ssw0rd!" psql -h demo-pg-rw.database.svc -U appuser -d appdb -c "\l+"'
+  421  kubectl -n database get pods 
+  422  history 

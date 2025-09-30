@@ -1,0 +1,154 @@
+root@hqv-edu-dev-03:~# history 
+    1  apt update
+    2  apt install curl
+    3  curl -v momentis.dk
+    4  ip a
+    5  curl -v momentis.dk
+    6  ip a
+    7  curl -v momentis.dk
+    8  apt update
+    9  apt install route
+   10  route -n
+   11  routel -n
+   12  curl -v momentis.dk
+   13  apt install openssh-server
+   14  curl -v momentis.dk
+   15  vi /etc/ssh/ssh_config
+   16  service sshd restart
+   17  servicectl restart sshd
+   18  service restart sshd
+   19  systemctl status sshd
+   20  systemctl status ssh
+   21  systemctl restart ssh
+   22  curl -v momentis.dk
+   23  ifw
+   24  sshd -t
+   25  systemctl restart sshd
+   26  apt install sshd
+   27  ss
+   28  ss -tulpn
+   29  histq
+   30  history 
+   31  vi /etc/ssh/sshd_config
+   32  systemctl restart sshd
+   33  systemctl status ssh
+   34  systemctl restart ssh
+   35  ss -tulpn
+   36  systemctl daemon-reload
+   37  systemctl restart ssh
+   38  systemctl status ssh
+   39  ufw allow 1333
+   40  exit
+   41  ip a
+   42  systemctl status ssh
+   43  ufw
+   44  ufw status
+   45  curl -v momentis.dk
+   46  netstat
+   47  ss -tulpn
+   48  ufw allow 1333
+   49  ufw status
+   50  exit
+   51  history 
+   52  curl -v momentis.dk
+   53  history 
+   54  ip -a
+   55  ip aa
+   56  ip a
+   57  curl -v momentis.dk
+   58  exit
+   59  curl -v momentis.dk
+   60  systemctl status ssh
+   61  systemctl status openssh
+   62  systemctl status openssh-server
+   63  systemctl status open-ssh-server
+   64  systemctl status ssh
+   65  systemctl restart ssh
+   66  systemctl status ssh
+   67  curl -v momentis.dk
+   68  ufw status
+   69  ufw --help
+   70  ip address
+   71  apt update
+   72  apt install open-ssh-server
+   73  apt install openssh-server
+   74  history 
+   75  systemctl status openssh-server
+   76  systemctl status ssh
+   77  history 
+   78  vi /etc/ssh/sshd_config
+   79  systemctl restart ssh
+   80  systemctl status ssh
+   81  systemctl restart ssh
+   82  systemctl status ssh
+   83  history 
+   84  vi /etc/ssh/ssh_config
+   85  systemctl daemon-reload
+   86  history systemctl restart ssh
+   87  history systemctl restart sshd
+   88  systemctl restart ssh
+   89  systemctl status ssh
+   90  shudown -r
+   91  shudown --help
+   92  shutdown -r
+   93  shutdown --help
+   94  shutdown -h
+   95  date
+   96  ip address
+   97  curl - v momentis.dk
+   98  curl -v momentis.dk
+   99  ping 192.168.1.183
+  100  hostname
+  101  hostnamectl set-hostname hqv-edu-dev-03
+  102  exit
+  103  curl -v momentis.dk
+  104  exit
+  105  history 
+  106  shutdown -h
+  107  vi /etc/host
+  108  cat /etc/host
+  109  ping hqv-edu-dev-03
+  110  ping hqv-edu-dev-02
+  111  exit
+  112  ping hqv-edu-dev-02
+  113  ping hqv-edu-dev-mast-01
+  114  systemctl restart systemd-hostnamed
+  115  ping hqv-edu-dev-mast-01
+  116  ifconfig
+  117  ifconfig -a
+  118  ip -a
+  119  cat /etc/host
+  120  hostname -i
+  121  hostname
+  122  host hqv-edut-dev-02
+  123  host hqv-edu-dev-02
+  124  host hqv-edu-dev-03
+  125  exit
+  126  host hqv-edu-dev-02
+  127  cat /etc/hosts
+  128  cat /etc/host
+  129  vi /etc/hosts
+  130  host hqv-edu-dev-02
+  131  ping hqv-edu-dev-02
+  132  apt install bzip2
+  133  curl -v momentis.dk
+  134  cat /etc/hosts
+  135  reboot
+  136  cat /etc/hosts
+  137  curl -v momentis.dk
+  138  ping hqv-edu-dev-02
+  139  ping hqv-edu-dev-mast-01
+  140  exit
+  141  ip a
+  142  vi /etc/hosts
+  143  ip a
+  144  sudo apt update
+  145  reboot -r
+  146  reboot -R
+  147  reboot
+  148  exit
+  149  ip a
+  150  # run on EACH node (02, 03, and master if it can host workloads)
+  151  sudo mkdir -p /opt/local-path-provisioner
+  152  sudo chmod 0777 /opt/local-path-provisioner
+  153  history 
